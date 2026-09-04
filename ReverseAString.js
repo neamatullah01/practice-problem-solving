@@ -1,8 +1,10 @@
-function reverseString(s) {
-  let ans = "";
-  for (let i = s.length - 1; i >= 0; i--) {
-    ans += s[i];
+function reverseString(str) {
+  let res = "";
+
+  for (let i = str.length - 1; i >= 0; i--) {
+    res += str[i];
   }
-  return ans;
+  return res;
 }
-console.log(reverseString("hello"));
+
+console.log(reverseString("ullah"));
