@@ -43,8 +43,8 @@ void withKadanesAlgo(int *arr,int n){
 
 
 int main(){
-    int arr[5] = {-8, -1, -5, -3, -2};
-    int n = 5;
+    int arr[6] = {7,1,5,3,6,4};
+    int n = 6;
     maxSubArraySum1(arr,n);
     maxSubArraySum2(arr,n);
     withKadanesAlgo(arr,n);
