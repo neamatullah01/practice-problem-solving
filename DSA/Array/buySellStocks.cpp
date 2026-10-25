@@ -7,7 +7,7 @@ void profit(int arr[], int n){
     bestBuy[0] = INT_MAX;
 
     for(int i=1; i<n; i++){
-        bestBuy[i] = min(bestBuy[i-1], arr[i-1]);
+        bestBuy[i] = min(bestBuy[i-1], arr[i-1]); 
     }
 
     int maxProfit = 0;
